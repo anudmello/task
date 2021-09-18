@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.navbar{
+    font-size: 19px !important;
+    
+}
+.navbar .navbar-brand{
+    font-size: 24px;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+@font-face {
+  font-family: DejaVuSans;
+  src: url('../fonts/DejaVuSans.ttf');
+}
+.head-img{
+    background-image: url('../img/img1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120vh;
+    position: relative;
+    width: 100%;
+}
+.head-img .middle-box{
+    background-color: #ffffff;
+    position: absolute;
+    width: 300px;
+    height: auto;
+    left: 15%;
+    font-size: 50px;
+    font-weight: 600;
+    padding: 40px;
+    top:30%;
+}
+.nav-link{
+    color: black !important;
+}
+.box1{
+    position: absolute;
+    right: 15px;
+    top:-25px;
+}
+.box2{
+    position: absolute;
+    bottom: -25px;
+}
+.about{
+    background-color: #d1aa90;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    padding: 6% 20%;
+}
+.para-box{
+    padding: 10%;
+}
+.para-img img{
+    width: 450px;
+}
+.zip-text{
+    border-radius: 7px;
+    border: none;
+    position: relative;
+    height: 38px;
+    color: #353535 !important;
+    background-color: #d1aa90;
+    box-shadow: 0px -3px #888888;
+}
+.btn-go{
+    color: #353535 !important;
+    background-color: #f2d6ad;
+    position: absolute;
+    right: 0%;
+}
+.rate{
+    margin: auto;
+    text-align: center;
+    padding: 7%;
+    background-color: #f2eee8;
+}
+footer{
+    background-color: #4e7850;
+    padding: 5%;
+    color: #fff;
+    position: relative;
+    padding-bottom: 40px;
+}
+footer a{
+    color: #fff;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li{
+    margin-top: 10px;
+}
+footer .credits{
+    position: absolute;
+    right: 30px;
+     
+}
+footer h6{
+    font-size: 13px;
+    font-weight: 600;
+}
+footer h4{
+    line-height: 40px;
+}
+/* media */
+@media(max-width:768px){
+    .para-img img{
+        width: 100%;
+    }
+    .box1{
+        position: unset;
+    }
+    .box2{
+        position: unset;
+    }
+    footer ul{
+        margin-left: 0px;
+    }
+    footer .credits{
+        position: unset;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .head-img{
+        position: unset;
+    }
+}
